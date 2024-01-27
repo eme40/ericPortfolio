@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 3000px;
+}
+
+.nav-title {
+    width: 1440px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(237, 200, 200);
+    z-index: 1px;
+}
+.section-one{
+    margin-bottom: 3rem;
+}
+li a{
+        text-decoration: none;
+        color: #012A4A;
+        font-size: 16px;
+        font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+li{
+    margin-right: 30px;
+    width: 57px;
+    height: 43px;
+}
+.section-one {
+    display: flex;
+}
+.div-right {
+    flex: 1;
+    
+}
+.div-left {
+    flex: 1;
+    margin-top: 3rem;
+}
+.div-1{
+    margin-left: 6rem;
+}
+.div-1{
+    width: 500px;
+    height: 48px;
+}
+.div-1 .title {
+    padding-top: 8rem;
+    line-height: 2.7rem;
+    color: #012A4A;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.div-1 .para-1 {
+    color: #012A4A;
+    width: 480px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.div-1 .Btn{
+    text-decoration: none;
+    width: 280px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    height: 48px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.div-left .div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: end;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+.div-3{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-left: 6rem;
+    padding-top: 1rem;
+}
+.section-two {
+    height:453px;
+    background-color: #ebc8d7;
+}
+
+.cards {
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;;
+    margin-left: 6rem;
+    padding-left: 10px;
+    padding-top: 15px;
+
+}
+.card-title{
+    width: 350px;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+.cards > h1, .date, .para-2, .design, .pipe{
+    margin-left: 2rem;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.card-1 > p {
+    width: 350px;
+    padding-top: 2rem;
+}
+.cards {
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+.card-2 {
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-left: 12rem;
+}
+.card-2 > p {
+    width: 350px;
+    padding-top: 2rem;
+}
+.works{
+    padding-top: 2rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    font-size: 24px;
+}
+.section-three-div{
+    display: flex;
+}
+.section-three-div-1{
+    flex: 1;
+}
+.section-three-div-2{
+    flex: 2;
+}
+.img-rec {
+    padding-top: 2rem;
+    width: 350px;
+    height: 250px;
+}
+.dash-1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.year {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 20px;
+    padding: 3px;
+}
+.section-three-div-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14rem;
+    justify-content: center;
+}
+.para-3{
+    padding-top: 2rem;
+    width: 450px;
+}
+.line {
+    background-color: green;
+    width: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    gap: 10px;
+}
+.copy{
+    padding-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:600px){
+    .section-one{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .section-three-div{
+        display: none;
+    }
+    .section-three-div-1{
+        display: none;
+    }
+    .section-three-div-2{
+        display: none;
+    }
+    .post, .view{
+        display: none;
+    }
+    .cards {
+        display: none;
+    }
+    .section-one{
+        flex-direction: column-reverse;
+    }
+    .image{
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 1rem;
+    }
+    .div-1 .title{
+        width: 300px;
+        padding-top: 4rem;
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    .div-1 .para-1{
+        width:200px;
+        font-size: 1rem;
+    }
+    .nav-title {
+        display: none;
+    }
+    .section-two{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .section-3 h3{
+        display: none;
+    }
+    .copy{
+        display: none;
+    }
+}
